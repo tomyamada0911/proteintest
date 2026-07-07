@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfect Combustion - 日常を整える一杯</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500;700&family=Noto+Sans+JP:wght@400;500;700;900&display=swap');
+        
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            background-color: #fcfaf7; /* 温かみのあるクリーム色 */
+            color: #4a3e3d;
+        }
+        .font-brand {
+            font-family: 'Fredoka', 'Noto Sans JP', sans-serif;
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-amber-100">
+
+    <!-- ヘッダー -->
+    <nav class="bg-white/90 backdrop-blur-md border-b border-stone-200/80 px-4 py-3 sticky top-0 z-50 flex items-center justify-center shadow-sm">
+        <div class="flex items-center gap-2.5">
+            <div class="w-8 h-8 rounded-xl bg-gradient-to-br from-amber-500 to-orange-400 flex items-center justify-center text-white shadow-md shadow-orange-500/10">
+                <i class="fa-solid fa-mug-hot text-sm"></i>
+            </div>
+            <div>
+                <span class="font-brand font-bold text-sm tracking-wider block text-stone-800 leading-none">PERFECT COMBUSTION</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- メインビジュアル（ヒーローセクション） -->
+    <main class="max-w-xl mx-auto px-4 py-8 space-y-12">
+        <section class="text-center space-y-6">
+            <div class="inline-flex items-center gap-2 bg-amber-500/10 border border-amber-500/20 px-4 py-1.5 rounded-full text-amber-700 font-bold text-xs tracking-wider">
+                <i class="fa-solid fa-leaf text-amber-500"></i> NEW LIFESTYLE
+            </div>
+            
+            <h1 class="text-3xl sm:text-4xl font-black tracking-tight leading-tight text-stone-800">
+                筋トレ専用では<br>ありません。<br>
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-orange-500">
+                    身体を整えるための<br>新しい一杯です。
+                </span>
+            </h1>
+            
+            <p class="text-stone-500 text-sm leading-relaxed max-w-sm mx-auto">
+                「プロテイン＝ゴツい」という常識を覆す。<br>
+                毎日の生活にそっと寄り添い、あなたの回復をサポートする美味しい習慣を始めませんか？
+            </p>
+
+            <div class="w-full h-64 rounded-3xl overflow-hidden shadow-lg border border-stone-100 relative mt-6">
+                <!-- リンク切れ対策済みの安定したカフェ画像 -->
+                <img src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&w=800&q=80" alt="Cafe Latte" class="w-full h-full object-cover">
+                <div class="absolute inset-0 bg-stone-900/10 mix-blend-multiply"></div>
+            </div>
+        </section>
+
+        <!-- ストーリーセクション -->
+        <section class="bg-white p-8 rounded-3xl border border-stone-200 shadow-sm relative overflow-hidden">
+            <div class="absolute -top-16 -right-16 w-32 h-32 bg-amber-100 rounded-full blur-2xl opacity-60"></div>
+            <i class="fa-solid fa-quote-left text-4xl text-amber-200 mb-4"></i>
+            <h2 class="text-xl font-bold text-stone-800 mb-4 leading-snug">
+                ある朝、妻がカフェラテだと思って飲んでいました。
+            </h2>
+            <p class="text-stone-600 text-sm leading-relaxed">
+                「これ、本当にプロテインなの？」<br>
+                妻は驚いた顔でそう言いました。<br><br>
+                その時に確信したんです。<br>
+                これは一部のアスリートだけのものではない。忙しい朝を彩る「おうちカフェ」として、誰の日常にも溶け込めるのだと。
+            </p>
+        </section>
+
+        <!-- 飲み方の提案セクション -->
+        <section class="space-y-6">
+            <div class="text-center">
+                <h2 class="text-2xl font-black text-stone-800 mb-2">飲み方に、決まりはありません。</h2>
+                <p class="text-stone-500 text-sm">あなたのライフスタイルが正解です。</p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <!-- マグカップ -->
+                <div class="bg-amber-50 rounded-2xl p-6 border border-amber-100 flex flex-col items-center text-center space-y-4">
+                    <div class="w-16 h-16 rounded-full bg-white flex items-center justify-center shadow-sm text-amber-600 text-2xl">
+                        <i class="fa-solid fa-mug-hot"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-stone-800 mb-2">朝はホットで、マグカップ。</h3>
+                        <p class="text-xs text-stone-600 leading-relaxed">
+                            熱湯を注いでスプーンで混ぜるだけ。サッと溶けるから、忙しい朝のカフェラテ代わりに。
+                        </p>
+                    </div>
+                </div>
+
+                <!-- シェイカー -->
+                <div class="bg-stone-50 rounded-2xl p-6 border border-stone-200 flex flex-col items-center text-center space-y-4">
+                    <div class="w-16 h-16 rounded-full bg-white flex items-center justify-center shadow-sm text-stone-600 text-2xl">
+                        <i class="fa-solid fa-bottle-water"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-stone-800 mb-2">運動後は、シェイカーで。</h3>
+                        <p class="text-xs text-stone-600 leading-relaxed">
+                            ダンスやトレーニングの後は、専用シェイカーでしっかりBCAAを補給。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- アレンジレシピタグ -->
+        <section class="bg-white p-6 rounded-3xl border border-stone-200 shadow-sm text-center space-y-4">
+            <h3 class="font-bold text-stone-800">楽しみ方は無限大 ☕️</h3>
+            <div class="flex flex-wrap justify-center gap-2">
+                <span class="px-3 py-1.5 bg-stone-100 text-stone-600 text-xs font-bold rounded-lg">#夏はアイスラテ</span>
+                <span class="px-3 py-1.5 bg-stone-100 text-stone-600 text-xs font-bold rounded-lg">#豆乳割り</span>
+                <span class="px-3 py-1.5 bg-stone-100 text-stone-600 text-xs font-bold rounded-lg">#オーツミルク</span>
+                <span class="px-3 py-1.5 bg-stone-100 text-stone-600 text-xs font-bold rounded-lg">#ハチミツをひとさじ</span>
+                <span class="px-3 py-1.5 bg-stone-100 text-stone-600 text-xs font-bold rounded-lg">#キャラメルソース</span>
+            </div>
+            <p class="text-xs text-stone-500 mt-2">気分に合わせて、お気に入りの味を見つけてください。</p>
+        </section>
+
+        <!-- LINE登録（CTA）セクション -->
+        <section class="bg-gradient-to-br from-amber-500 to-orange-500 p-8 rounded-3xl text-white text-center shadow-xl relative overflow-hidden">
+            <div class="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full blur-2xl"></div>
+            
+            <i class="fa-brands fa-line text-5xl mb-4"></i>
+            <h2 class="text-2xl font-black mb-2">公式LINEで繋がろう</h2>
+            <p class="text-sm text-amber-50 leading-relaxed mb-6">
+                美味しいアレンジレシピや、<br>次回の試飲会イベント情報をお届けします。<br>
+                <span class="font-bold text-white mt-2 block">🎁 今なら会場で登録画面を見せると<br>専用シェイカーをプレゼント！</span>
+            </p>
+            
+            <a href="#" class="inline-flex items-center justify-center gap-2 bg-white text-amber-600 font-bold text-sm px-8 py-4 rounded-full shadow-lg hover:scale-105 transition-transform w-full sm:w-auto">
+                <i class="fa-solid fa-user-plus"></i>
+                LINEでお友達に追加する
+            </a>
+        </section>
+        
+        <!-- スペーサー -->
+        <div class="h-8"></div>
+    </main>
+
+    <!-- フッター -->
+    <footer class="bg-stone-900 text-stone-400 py-6 text-center text-xs">
+        <p>Perfect Combustion</p>
+        <p class="mt-1 opacity-60">Created by Studio Merry Craft</p>
+    </footer>
+
+</body>
+</html>
